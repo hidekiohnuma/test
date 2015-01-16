@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22F168F19C2C42600864146 /* rpg0.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F167A19C2C42600864146 /* rpg0.png */; };
+		A22F169019C2C42600864146 /* rpg0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F167B19C2C42600864146 /* rpg0@2x.png */; };
+		A22F169119C2C42600864146 /* rpg0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F167C19C2C42600864146 /* rpg0@3x.png */; };
+		A22F169219C2C42600864146 /* rpg1.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F167D19C2C42600864146 /* rpg1.png */; };
+		A22F169319C2C42600864146 /* rpg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F167E19C2C42600864146 /* rpg1@2x.png */; };
+		A22F169419C2C42600864146 /* rpg1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F167F19C2C42600864146 /* rpg1@3x.png */; };
+		A22F169519C2C42600864146 /* rpg2.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168019C2C42600864146 /* rpg2.png */; };
+		A22F169619C2C42600864146 /* rpg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168119C2C42600864146 /* rpg2@2x.png */; };
+		A22F169719C2C42600864146 /* rpg2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168219C2C42600864146 /* rpg2@3x.png */; };
+		A22F169819C2C42600864146 /* rpg3.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168319C2C42600864146 /* rpg3.png */; };
+		A22F169919C2C42600864146 /* rpg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168419C2C42600864146 /* rpg3@2x.png */; };
+		A22F169A19C2C42600864146 /* rpg3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168519C2C42600864146 /* rpg3@3x.png */; };
+		A22F169B19C2C42600864146 /* rpg4.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168619C2C42600864146 /* rpg4.png */; };
+		A22F169C19C2C42600864146 /* rpg4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168719C2C42600864146 /* rpg4@2x.png */; };
+		A22F169D19C2C42600864146 /* rpg4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168819C2C42600864146 /* rpg4@3x.png */; };
+		A22F169E19C2C42600864146 /* rpg5.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168919C2C42600864146 /* rpg5.png */; };
+		A22F169F19C2C42600864146 /* rpg5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168A19C2C42600864146 /* rpg5@2x.png */; };
+		A22F16A019C2C42600864146 /* rpg5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168B19C2C42600864146 /* rpg5@3x.png */; };
+		A22F16A119C2C42600864146 /* rpg6.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168C19C2C42600864146 /* rpg6.png */; };
+		A22F16A219C2C42600864146 /* rpg6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168D19C2C42600864146 /* rpg6@2x.png */; };
+		A22F16A319C2C42600864146 /* rpg6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22F168E19C2C42600864146 /* rpg6@3x.png */; };
+		A22F16A619C2C43600864146 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22F16A419C2C43600864146 /* Graphics.swift */; };
+		A22F16A719C2C43600864146 /* RPGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22F16A519C2C43600864146 /* RPGView.swift */; };
+		A23B32B419C188E1003F7E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B32B319C188E1003F7E27 /* AppDelegate.swift */; };
+		A23B32B619C188E1003F7E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B32B519C188E1003F7E27 /* ViewController.swift */; };
+		A23B32B919C188E1003F7E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23B32B719C188E1003F7E27 /* Main.storyboard */; };
+		A23B32BB19C188E1003F7E27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23B32BA19C188E1003F7E27 /* Images.xcassets */; };
+		A23B32BE19C188E1003F7E27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23B32BC19C188E1003F7E27 /* LaunchScreen.xib */; };
+		A23B32CA19C188E1003F7E27 /* RPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B32C919C188E1003F7E27 /* RPGTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23B32C419C188E1003F7E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23B32A619C188E1003F7E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23B32AD19C188E1003F7E27;
+			remoteInfo = RPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A22F167A19C2C42600864146 /* rpg0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg0.png; sourceTree = "<group>"; };
+		A22F167B19C2C42600864146 /* rpg0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg0@2x.png"; sourceTree = "<group>"; };
+		A22F167C19C2C42600864146 /* rpg0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg0@3x.png"; sourceTree = "<group>"; };
+		A22F167D19C2C42600864146 /* rpg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg1.png; sourceTree = "<group>"; };
+		A22F167E19C2C42600864146 /* rpg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg1@2x.png"; sourceTree = "<group>"; };
+		A22F167F19C2C42600864146 /* rpg1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg1@3x.png"; sourceTree = "<group>"; };
+		A22F168019C2C42600864146 /* rpg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg2.png; sourceTree = "<group>"; };
+		A22F168119C2C42600864146 /* rpg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg2@2x.png"; sourceTree = "<group>"; };
+		A22F168219C2C42600864146 /* rpg2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg2@3x.png"; sourceTree = "<group>"; };
+		A22F168319C2C42600864146 /* rpg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg3.png; sourceTree = "<group>"; };
+		A22F168419C2C42600864146 /* rpg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg3@2x.png"; sourceTree = "<group>"; };
+		A22F168519C2C42600864146 /* rpg3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg3@3x.png"; sourceTree = "<group>"; };
+		A22F168619C2C42600864146 /* rpg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg4.png; sourceTree = "<group>"; };
+		A22F168719C2C42600864146 /* rpg4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg4@2x.png"; sourceTree = "<group>"; };
+		A22F168819C2C42600864146 /* rpg4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg4@3x.png"; sourceTree = "<group>"; };
+		A22F168919C2C42600864146 /* rpg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg5.png; sourceTree = "<group>"; };
+		A22F168A19C2C42600864146 /* rpg5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg5@2x.png"; sourceTree = "<group>"; };
+		A22F168B19C2C42600864146 /* rpg5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg5@3x.png"; sourceTree = "<group>"; };
+		A22F168C19C2C42600864146 /* rpg6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg6.png; sourceTree = "<group>"; };
+		A22F168D19C2C42600864146 /* rpg6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg6@2x.png"; sourceTree = "<group>"; };
+		A22F168E19C2C42600864146 /* rpg6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rpg6@3x.png"; sourceTree = "<group>"; };
+		A22F16A419C2C43600864146 /* Graphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		A22F16A519C2C43600864146 /* RPGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGView.swift; sourceTree = "<group>"; };
+		A23B32AE19C188E1003F7E27 /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23B32B219C188E1003F7E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23B32B319C188E1003F7E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A23B32B519C188E1003F7E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A23B32B819C188E1003F7E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23B32BA19C188E1003F7E27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A23B32BD19C188E1003F7E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A23B32C319C188E1003F7E27 /* RPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23B32C819C188E1003F7E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23B32C919C188E1003F7E27 /* RPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23B32AB19C188E1003F7E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23B32C019C188E1003F7E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23B32A519C188E1003F7E27 = {
+			isa = PBXGroup;
+			children = (
+				A23B32B019C188E1003F7E27 /* RPG */,
+				A23B32C619C188E1003F7E27 /* RPGTests */,
+				A23B32AF19C188E1003F7E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23B32AF19C188E1003F7E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23B32AE19C188E1003F7E27 /* RPG.app */,
+				A23B32C319C188E1003F7E27 /* RPGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23B32B019C188E1003F7E27 /* RPG */ = {
+			isa = PBXGroup;
+			children = (
+				A23B32B319C188E1003F7E27 /* AppDelegate.swift */,
+				A23B32B519C188E1003F7E27 /* ViewController.swift */,
+				A22F16A519C2C43600864146 /* RPGView.swift */,
+				A22F16A419C2C43600864146 /* Graphics.swift */,
+				A23B32B719C188E1003F7E27 /* Main.storyboard */,
+				A23B32BA19C188E1003F7E27 /* Images.xcassets */,
+				A23B32BC19C188E1003F7E27 /* LaunchScreen.xib */,
+				A23B32B119C188E1003F7E27 /* Supporting Files */,
+			);
+			path = RPG;
+			sourceTree = "<group>";
+		};
+		A23B32B119C188E1003F7E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22F167A19C2C42600864146 /* rpg0.png */,
+				A22F167B19C2C42600864146 /* rpg0@2x.png */,
+				A22F167C19C2C42600864146 /* rpg0@3x.png */,
+				A22F167D19C2C42600864146 /* rpg1.png */,
+				A22F167E19C2C42600864146 /* rpg1@2x.png */,
+				A22F167F19C2C42600864146 /* rpg1@3x.png */,
+				A22F168019C2C42600864146 /* rpg2.png */,
+				A22F168119C2C42600864146 /* rpg2@2x.png */,
+				A22F168219C2C42600864146 /* rpg2@3x.png */,
+				A22F168319C2C42600864146 /* rpg3.png */,
+				A22F168419C2C42600864146 /* rpg3@2x.png */,
+				A22F168519C2C42600864146 /* rpg3@3x.png */,
+				A22F168619C2C42600864146 /* rpg4.png */,
+				A22F168719C2C42600864146 /* rpg4@2x.png */,
+				A22F168819C2C42600864146 /* rpg4@3x.png */,
+				A22F168919C2C42600864146 /* rpg5.png */,
+				A22F168A19C2C42600864146 /* rpg5@2x.png */,
+				A22F168B19C2C42600864146 /* rpg5@3x.png */,
+				A22F168C19C2C42600864146 /* rpg6.png */,
+				A22F168D19C2C42600864146 /* rpg6@2x.png */,
+				A22F168E19C2C42600864146 /* rpg6@3x.png */,
+				A23B32B219C188E1003F7E27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A23B32C619C188E1003F7E27 /* RPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23B32C919C188E1003F7E27 /* RPGTests.swift */,
+				A23B32C719C188E1003F7E27 /* Supporting Files */,
+			);
+			path = RPGTests;
+			sourceTree = "<group>";
+		};
+		A23B32C719C188E1003F7E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A23B32C819C188E1003F7E27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23B32AD19C188E1003F7E27 /* RPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23B32CD19C188E1003F7E27 /* Build configuration list for PBXNativeTarget "RPG" */;
+			buildPhases = (
+				A23B32AA19C188E1003F7E27 /* Sources */,
+				A23B32AB19C188E1003F7E27 /* Frameworks */,
+				A23B32AC19C188E1003F7E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPG;
+			productName = RPG;
+			productReference = A23B32AE19C188E1003F7E27 /* RPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23B32C219C188E1003F7E27 /* RPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23B32D019C188E1003F7E27 /* Build configuration list for PBXNativeTarget "RPGTests" */;
+			buildPhases = (
+				A23B32BF19C188E1003F7E27 /* Sources */,
+				A23B32C019C188E1003F7E27 /* Frameworks */,
+				A23B32C119C188E1003F7E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23B32C519C188E1003F7E27 /* PBXTargetDependency */,
+			);
+			name = RPGTests;
+			productName = RPGTests;
+			productReference = A23B32C319C188E1003F7E27 /* RPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23B32A619C188E1003F7E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = npaka;
+				TargetAttributes = {
+					A23B32AD19C188E1003F7E27 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A23B32C219C188E1003F7E27 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A23B32AD19C188E1003F7E27;
+					};
+				};
+			};
+			buildConfigurationList = A23B32A919C188E1003F7E27 /* Build configuration list for PBXProject "RPG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23B32A519C188E1003F7E27;
+			productRefGroup = A23B32AF19C188E1003F7E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23B32AD19C188E1003F7E27 /* RPG */,
+				A23B32C219C188E1003F7E27 /* RPGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23B32AC19C188E1003F7E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22F169C19C2C42600864146 /* rpg4@2x.png in Resources */,
+				A22F169719C2C42600864146 /* rpg2@3x.png in Resources */,
+				A22F169819C2C42600864146 /* rpg3.png in Resources */,
+				A22F169219C2C42600864146 /* rpg1.png in Resources */,
+				A22F169119C2C42600864146 /* rpg0@3x.png in Resources */,
+				A22F169319C2C42600864146 /* rpg1@2x.png in Resources */,
+				A22F169F19C2C42600864146 /* rpg5@2x.png in Resources */,
+				A22F16A219C2C42600864146 /* rpg6@2x.png in Resources */,
+				A22F16A319C2C42600864146 /* rpg6@3x.png in Resources */,
+				A22F168F19C2C42600864146 /* rpg0.png in Resources */,
+				A23B32B919C188E1003F7E27 /* Main.storyboard in Resources */,
+				A22F169D19C2C42600864146 /* rpg4@3x.png in Resources */,
+				A22F169019C2C42600864146 /* rpg0@2x.png in Resources */,
+				A22F169B19C2C42600864146 /* rpg4.png in Resources */,
+				A22F169619C2C42600864146 /* rpg2@2x.png in Resources */,
+				A22F169E19C2C42600864146 /* rpg5.png in Resources */,
+				A22F169519C2C42600864146 /* rpg2.png in Resources */,
+				A22F169919C2C42600864146 /* rpg3@2x.png in Resources */,
+				A22F16A119C2C42600864146 /* rpg6.png in Resources */,
+				A22F169419C2C42600864146 /* rpg1@3x.png in Resources */,
+				A22F16A019C2C42600864146 /* rpg5@3x.png in Resources */,
+				A23B32BE19C188E1003F7E27 /* LaunchScreen.xib in Resources */,
+				A23B32BB19C188E1003F7E27 /* Images.xcassets in Resources */,
+				A22F169A19C2C42600864146 /* rpg3@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23B32C119C188E1003F7E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23B32AA19C188E1003F7E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22F16A719C2C43600864146 /* RPGView.swift in Sources */,
+				A22F16A619C2C43600864146 /* Graphics.swift in Sources */,
+				A23B32B619C188E1003F7E27 /* ViewController.swift in Sources */,
+				A23B32B419C188E1003F7E27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23B32BF19C188E1003F7E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23B32CA19C188E1003F7E27 /* RPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23B32C519C188E1003F7E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23B32AD19C188E1003F7E27 /* RPG */;
+			targetProxy = A23B32C419C188E1003F7E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23B32B719C188E1003F7E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23B32B819C188E1003F7E27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23B32BC19C188E1003F7E27 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23B32BD19C188E1003F7E27 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23B32CB19C188E1003F7E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23B32CC19C188E1003F7E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23B32CE19C188E1003F7E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A23B32CF19C188E1003F7E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A23B32D119C188E1003F7E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPG.app/RPG";
+			};
+			name = Debug;
+		};
+		A23B32D219C188E1003F7E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPG.app/RPG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23B32A919C188E1003F7E27 /* Build configuration list for PBXProject "RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23B32CB19C188E1003F7E27 /* Debug */,
+				A23B32CC19C188E1003F7E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23B32CD19C188E1003F7E27 /* Build configuration list for PBXNativeTarget "RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23B32CE19C188E1003F7E27 /* Debug */,
+				A23B32CF19C188E1003F7E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23B32D019C188E1003F7E27 /* Build configuration list for PBXNativeTarget "RPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23B32D119C188E1003F7E27 /* Debug */,
+				A23B32D219C188E1003F7E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23B32A619C188E1003F7E27 /* Project object */;
+}
