@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* ShrinkHeaderSampleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 1787}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{0, 800}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ShrinkHeaderSample */ = {
+		activeExec = 0;
+		executables = (
+			A65B791712582F5300F0885C /* ShrinkHeaderSample */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* ShrinkHeaderTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 537}}";
+			sepNavSelRange = "{357, 0}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* ShrinkHeaderTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {730, 2574}}";
+			sepNavSelRange = "{4161, 0}";
+			sepNavVisRange = "{1027, 833}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A65B791712582F5300F0885C /* ShrinkHeaderSample */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ShrinkHeaderSample */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ShrinkHeaderSample */,
+		);
+		breakpoints = (
+			A65B79EE125844C400F0885C /* ShrinkHeaderTableViewController.m:46 */,
+		);
+		codeSenseManager = A65B791D12582F7200F0885C /* Code sense */;
+		executables = (
+			A65B791712582F5300F0885C /* ShrinkHeaderSample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					615,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307769172;
+			PBXWorkspaceStateSaveDate = 307769172;
+		};
+		perUserProjectItems = {
+			A65B7A5812584F7F00F0885C /* PBXTextBookmark */ = A65B7A5812584F7F00F0885C /* PBXTextBookmark */;
+			A65B7A5912584F7F00F0885C /* PBXTextBookmark */ = A65B7A5912584F7F00F0885C /* PBXTextBookmark */;
+			A65B7A5A12584F7F00F0885C /* PBXTextBookmark */ = A65B7A5A12584F7F00F0885C /* PBXTextBookmark */;
+			A65B7A5B12584F7F00F0885C /* PBXTextBookmark */ = A65B7A5B12584F7F00F0885C /* PBXTextBookmark */;
+			A65B7A6F125851D000F0885C /* PBXTextBookmark */ = A65B7A6F125851D000F0885C /* PBXTextBookmark */;
+			A65B7A70125851D000F0885C /* PBXTextBookmark */ = A65B7A70125851D000F0885C /* PBXTextBookmark */;
+			A65B7A71125851D000F0885C /* PBXTextBookmark */ = A65B7A71125851D000F0885C /* PBXTextBookmark */;
+		};
+		sourceControlManager = A65B791C12582F7200F0885C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A65B791712582F5300F0885C /* ShrinkHeaderSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ShrinkHeaderSample;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	A65B791C12582F7200F0885C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A65B791D12582F7200F0885C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A65B799B12583AD000F0885C /* ShrinkHeaderTableView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 537}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 272}";
+		};
+	};
+	A65B799C12583AD000F0885C /* ShrinkHeaderTableView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 959}}";
+			sepNavSelRange = "{223, 0}";
+			sepNavVisRange = "{54, 566}";
+		};
+	};
+	A65B79EE125844C400F0885C /* ShrinkHeaderTableViewController.m:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* ShrinkHeaderTableViewController.m */;
+		functionName = "-shrinkRowInSection:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		location = ShrinkHeaderSample;
+		modificationTime = 307777856.31089;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	A65B7A5812584F7F00F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShrinkHeaderSampleAppDelegate.m */;
+		name = "ShrinkHeaderSampleAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 0;
+	};
+	A65B7A5912584F7F00F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65B799B12583AD000F0885C /* ShrinkHeaderTableView.h */;
+		name = "ShrinkHeaderTableView.h: 12";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	A65B7A5A12584F7F00F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* ShrinkHeaderTableViewController.m */;
+		name = "ShrinkHeaderTableViewController.m: 46";
+		rLen = 0;
+		rLoc = 1440;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 932;
+	};
+	A65B7A5B12584F7F00F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65B799C12583AD000F0885C /* ShrinkHeaderTableView.m */;
+		name = "ShrinkHeaderTableView.m: 11";
+		rLen = 0;
+		rLoc = 223;
+		rType = 0;
+		vrLen = 566;
+		vrLoc = 54;
+	};
+	A65B7A6012584F7F00F0885C /* UITableView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UITableView.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {730, 8297}}";
+			sepNavSelRange = "{89, 0}";
+			sepNavVisRange = "{0, 688}";
+		};
+	};
+	A65B7A6F125851D000F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A65B7A6012584F7F00F0885C /* UITableView.h */;
+		name = "UITableView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 0;
+	};
+	A65B7A70125851D000F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* ShrinkHeaderTableViewController.h */;
+		name = "ShrinkHeaderTableViewController.h: 11";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	A65B7A71125851D000F0885C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* ShrinkHeaderTableViewController.h */;
+		name = "ShrinkHeaderTableViewController.h: 16";
+		rLen = 0;
+		rLoc = 357;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+}
