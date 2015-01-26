@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQueryMobileでスマートフォンサイトを作ろう</title>
+		<link rel="stylesheet" href="themes/kaasan.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script>
+$(document).bind("mobileinit", function() {
+$.mobile.page.prototype.options.addBackBtn = true;
+});
+</script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+		<link rel="stylesheet" href="./themes/common.css" />
+	</head>
+	<body>
+	
+		<div data-role="page" data-theme="a">
+			<header data-role="header" data-position="inline"><h1>jQuery Mobile ThemeRollerを使ってオリジナルテーマを作ろう！</h1><a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+</header>
+
+<div data-role="content" data-theme="a">
+<h3>Google アナリティクスをjQuerymobile内で使う</h3>
+jQuerymobile内部でGoogleアナリティクスを使うにはちょっと工夫が必要のようです。
+散々jQuerymobileで独自にJavascriptを書こうとして痛い目見ましたからおそらく普通と書き方違うことは対応する前から気がついていましたが・・・
+<h3>jQuerymobile専用Google アナリティクスコード</h3>
+以下がjQuerymobile専用のGoogle アナリティクスコードです。自分のトラッキング IDを入れるを入れてコピペで利用してください。
+<pre class="javascript" name="code">
+//set
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-xxxxxxx-x']);//自分のトラッキング IDを入れる
+//async
+(function () {
+var ga = document.createElement('script'); ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+//data-role='page'が表示されたら
+$('[data-role=&quot;page&quot;]').live('pageshow', function(){
+var u = location.hash.replace('#', '');
+u ? _gaq.push(['_trackPageview', u]) : _gaq.push(['_trackPageview']);
+});
+</pre>
+<h4>注意点</h4>
+一応コピペで使えるのですが、以下の点に注意してjQuerymobile専用のGoogle アナリティクスコードを使って下さい
+<div class="box2">
+・jQuery本体と、jquery.mobile.min.jsの間に記述する
+・全てのページに書く(どこのページからユーザーは読みにいくか分からないため)
+</div>
+これでAjax遷移しているjQuerymobileサイト内でも正しくカウントを取ることが出来ます。
+<h4>ネタ元</h4>
+<div class="box2">
+  <a href="http://d.hatena.ne.jp/pikotea/20110628/1309282228" target="_blank">jQuery MobileでGoogle Analyticsを使う方法 へっぽこプログラマーの日記</a></div>
+</div>
+			
+<footer data-role="footer" data-position="inline">
+
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<form method="get" action="act.html">  
+<input type="search" name="search" id="search-basic" value="" />  
+</form>
+</div>
+
+<div class="ui-block-b"><a title="ITかあさん" href="http://www.kaasan.info">ITかあさん</a></div>
+</div> 
+
+</footer>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQueryMobileでスマートフォンサイトを作ろう</title>
+		<link rel="stylesheet" href="themes/kaasan.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script>
+$(document).bind("mobileinit", function() {
+$.mobile.page.prototype.options.addBackBtn = true;
+});
+</script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+		<link rel="stylesheet" href="./themes/common.css" />
+	</head>
+	<body>
+	
+		<div data-role="page" data-theme="a">
+			<header data-role="header" data-position="inline"><h1>jQueryMobileでスマートフォンサイトを作ろう</h1><a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+</header>
+
+<div data-role="content" data-theme="a">
+<ul data-role="listview">
+<li><a href="single.html">jQueryMobileのダウンロードと設置</a></li>
+<li><a href="single.html">jQueryMobile　リンク、ページ遷移について</a></li>
+<li><a href="single.html">jQueryMobile　スマートフォンっぽいリスト表示</a></li>
+<li><a href="single.html">jQueryMobile　リスト表示をアレンジ</a></li>
+<li><a href="single.html">jQueryMobile　ナビゲーション表示</a></li>
+<li><a href="single.html">jQueryMobile　ラジオボタン、チェックボックス</a></li>
+<li><a href="single.html">jQueryMobile　toggle</a></li>
+<li><a href="single.html">jQuerymobile カラムのレイアウト調整</a></li>
+<li><a href="single.html">jQueryMobile にオリジナルjavascriptを記述する方法</a></li>
+<li><a href="single.html">Google アナリティクスをjQuerymobile内で使う</a></li>
+<li><a href="single.html">jQuery Mobile ThemeRollerを使ってスマートフォンオリジナルテーマを作ろう！</a></li>
+
+</ul>
+</div>
+			
+<footer data-role="footer" data-position="inline">
+
+<div class="ui-grid-a">
+<div class="ui-block-a">
+<form method="get" action="act.html">  
+<input type="search" name="search" id="search-basic" value="" />  
+</form>
+</div>
+
+<div class="ui-block-b"><a title="ITかあさん" href="http://www.kaasan.info">ITかあさん</a></div>
+</div> 
+
+</footer>
+			
+		</div>
+	</body>
+</html>
